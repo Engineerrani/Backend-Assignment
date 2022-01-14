@@ -1,0 +1,60 @@
+Q.1 Write and Illustrate functionalities in a blogging website.
+
+1. Landing page where the some information about the website and sign in form.
+
+2. below landing page user can see trending blogs:-
+                                  a)show details of user
+                                  -> user_name
+                                  -> email_id
+                                  -> social media
+                                  -> user expereince
+                                  -> show no. of post 
+                                  -> interested technology 
+
+                                  b)user can see all his/her blog in three categories
+                                   -> most like
+                                   -> oldest
+                                   -> newest
+
+                                   c)Their is one favorite blog collection also
+
+3. I want authorized user to like and comment on blog.
+4. If user only wants to read he/she can do it without login.
+5. for reading purpose user can search a blog in following way,
+    -> by users_name
+    -> trending
+    -> tag  
+         
+*Functional requirement:-
+a) User register/ login (POST)
+b) (Get) all blogs
+        -> trending
+        -> by Tags
+        -> order bt date/time
+        -> most liked
+c)  blog (CRUD)
+d) Write comment (CRUD comment, post_id, user_id)
+e) Upvote/Like of a post(post_id, user_id)
+f) Tags CRUD
+
+*Non-functional requirements:-
+a) Highly scalable 
+b) Atomicity -ACID
+c) Adaptable FE               
+                          
+         
+
+
+
+
+    
+
+
+ Q.2 Write or illustrate of UI functionalities in a messaging application. 
+(Similar to https://socket.io/demos/chat/ ). Think of basic and additional/optional functionalities.
+
+-> All user is authorized
+-> can do group chat &
+-> personal chat
+-> secret chat room wich has some time given after that time chats get deleted
+-> can search user with contact number and user id
